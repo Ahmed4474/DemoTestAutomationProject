@@ -1,4 +1,3 @@
-# DemoTestAutomationProject
 # Demo Test Automation Project
 
 This project is a complete UI Test Automation Framework for automating
