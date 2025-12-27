@@ -1,0 +1,128 @@
+[DEBUG] - [27-12-2025 20:37:24] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\user\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml"
+[INFO] - [27-12-2025 20:37:25] [main] [com.swaglabs.listeners.TestNGListeners] - Test Execution started
+[INFO] - [27-12-2025 20:37:25] [main] [com.swaglabs.utils.PropertiesUtils] - Properties files loaded successfully
+[INFO] - [27-12-2025 20:37:25] [main] [com.swaglabs.utils.FilesUtils] - Directory created: test-outputs\screenshots
+[INFO] - [27-12-2025 20:37:25] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\user\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+[DEBUG] - [27-12-2025 20:37:25] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['information-form']['firstName']
+[DEBUG] - [27-12-2025 20:37:25] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['information-form']['lastName']
+[INFO] - [27-12-2025 20:37:29] [main] [com.swaglabs.utils.BrowserActions] - Navigated to URL:  https://www.saucedemo.com/
+[DEBUG] - [27-12-2025 20:37:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-credentials']['username']
+[INFO] - [27-12-2025 20:37:29] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible: By.id: user-name
+[INFO] - [27-12-2025 20:37:29] [main] [com.swaglabs.utils.ElementActions] - Scrolling to element:  By.id: user-name
+[INFO] - [27-12-2025 20:37:29] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: user-name
+[INFO] - [27-12-2025 20:37:29] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: user-name
+[INFO] - [27-12-2025 20:37:29] [main] [com.swaglabs.utils.ElementActions] - Data entered:  standard_user  in field:  By.id: user-name
+[DEBUG] - [27-12-2025 20:37:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-credentials']['password']
+[INFO] - [27-12-2025 20:37:29] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible: By.id: password
+[INFO] - [27-12-2025 20:37:29] [main] [com.swaglabs.utils.ElementActions] - Scrolling to element:  By.id: password
+[INFO] - [27-12-2025 20:37:29] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: password
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: password
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.ElementActions] - Data entered:  secret_sauce  in field:  By.id: password
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable: By.id: login-button
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.ElementActions] - Scrolling to element:  By.id: login-button
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: login-button
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: login-button
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.ElementActions] - Clicked on element:  By.id: login-button
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.BrowserActions] - Current URL:  https://www.saucedemo.com/inventory.html
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.AllureUtils] - Logs attached to Allure report
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.listeners.TestNGListeners] - Test case successfulLogin passed
+[DEBUG] - [27-12-2025 20:37:30] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product-names']['item1']['name']
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.pages.HomePage] - Adding Sauce Labs Backpack to cart
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable: [unknown locator]
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.ElementActions] - Scrolling to element:  [unknown locator]
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.ElementActions] - Finding element:  [unknown locator]
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.ElementActions] - Finding element:  [unknown locator]
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.ElementActions] - Clicked on element:  [unknown locator]
+[DEBUG] - [27-12-2025 20:37:30] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product-names']['item1']['name']
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible: [unknown locator]
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.ElementActions] - Scrolling to element:  [unknown locator]
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.ElementActions] - Finding element:  [unknown locator]
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.ElementActions] - Finding element:  [unknown locator]
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.ElementActions] - Text retrieved from element:  [unknown locator]  ->  Remove
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.pages.HomePage] - Sauce Labs Backpack added to cart successfully
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.AllureUtils] - Logs attached to Allure report
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.listeners.TestNGListeners] - Test case addingProductToCart passed
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable: By.cssSelector: [data-test='shopping-cart-link']
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.ElementActions] - Scrolling to element:  By.cssSelector: [data-test='shopping-cart-link']
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.cssSelector: [data-test='shopping-cart-link']
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.cssSelector: [data-test='shopping-cart-link']
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.ElementActions] - Clicked on element:  By.cssSelector: [data-test='shopping-cart-link']
+[DEBUG] - [27-12-2025 20:37:30] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product-names']['item1']['name']
+[DEBUG] - [27-12-2025 20:37:30] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product-names']['item1']['price']
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible: By.cssSelector: .inventory_item_name
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.ElementActions] - Scrolling to element:  By.cssSelector: .inventory_item_name
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.cssSelector: .inventory_item_name
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.cssSelector: .inventory_item_name
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.ElementActions] - Text retrieved from element:  By.cssSelector: .inventory_item_name  ->  Sauce Labs Backpack
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible: By.cssSelector: .inventory_item_price
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.ElementActions] - Scrolling to element:  By.cssSelector: .inventory_item_price
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.cssSelector: .inventory_item_price
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.cssSelector: .inventory_item_price
+[INFO] - [27-12-2025 20:37:30] [main] [com.swaglabs.utils.ElementActions] - Text retrieved from element:  By.cssSelector: .inventory_item_price  ->  $29.99
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.AllureUtils] - Logs attached to Allure report
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.listeners.TestNGListeners] - Test case checkoutProduct passed
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable: By.id: checkout
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Scrolling to element:  By.id: checkout
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: checkout
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: checkout
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Clicked on element:  By.id: checkout
+[DEBUG] - [27-12-2025 20:37:31] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['information-form']['postalCode']
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible: By.id: first-name
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Scrolling to element:  By.id: first-name
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: first-name
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: first-name
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Data entered:  testFirst_2025-12-27-20-37-25  in field:  By.id: first-name
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible: By.id: last-name
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Scrolling to element:  By.id: last-name
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: last-name
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: last-name
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Data entered:  testSecond_2025-12-27-20-37-25  in field:  By.id: last-name
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible: By.id: postal-code
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Scrolling to element:  By.id: postal-code
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: postal-code
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: postal-code
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Data entered:  12345  in field:  By.id: postal-code
+[DEBUG] - [27-12-2025 20:37:31] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['information-form']['postalCode']
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible: By.id: first-name
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Scrolling to element:  By.id: first-name
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: first-name
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: first-name
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Value retrieved from input:  By.id: first-name  ->  testFirst_2025-12-27-20-37-25
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible: By.id: last-name
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Scrolling to element:  By.id: last-name
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: last-name
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: last-name
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Value retrieved from input:  By.id: last-name  ->  testSecond_2025-12-27-20-37-25
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible: By.id: postal-code
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Scrolling to element:  By.id: postal-code
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: postal-code
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: postal-code
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Value retrieved from input:  By.id: postal-code  ->  12345
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.AllureUtils] - Logs attached to Allure report
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.listeners.TestNGListeners] - Test case fillInformationForm passed
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable: By.id: continue
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Scrolling to element:  By.id: continue
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: continue
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: continue
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Clicked on element:  By.id: continue
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable: By.id: finish
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Scrolling to element:  By.id: finish
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: finish
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.id: finish
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Clicked on element:  By.id: finish
+[DEBUG] - [27-12-2025 20:37:31] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['confirmation-message']
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible: By.cssSelector: .complete-header
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Scrolling to element:  By.cssSelector: .complete-header
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.cssSelector: .complete-header
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Finding element:  By.cssSelector: .complete-header
+[INFO] - [27-12-2025 20:37:31] [main] [com.swaglabs.utils.ElementActions] - Text retrieved from element:  By.cssSelector: .complete-header  ->  Thank you for your order!
+[INFO] - [27-12-2025 20:37:32] [main] [com.swaglabs.utils.AllureUtils] - Logs attached to Allure report
+[INFO] - [27-12-2025 20:37:32] [main] [com.swaglabs.listeners.TestNGListeners] - Test case finishCheckout passed
+[INFO] - [27-12-2025 20:37:32] [main] [com.swaglabs.utils.BrowserActions] - Closing the browser
+[INFO] - [27-12-2025 20:37:32] [main] [com.swaglabs.listeners.TestNGListeners] - Test Execution finished
+[INFO] - [27-12-2025 20:37:34] [main] [com.swaglabs.utils.TerminalUtils] - Command executed successfully:  C:\Users\user\Downloads\allure-2.35.1\allure-2.35.1\bin\allure.bat generate test-outputs/allure-results -o test-outputs/allure-report --clean --single-file
+[INFO] - [27-12-2025 20:37:34] [main] [com.swaglabs.utils.AllureUtils] - Allure report generated successfully on windows 11
+[INFO] - [27-12-2025 20:37:34] [main] [com.swaglabs.utils.FilesUtils] - File renamed to: Report_2025-12-27-20-37-34.html
+[INFO] - [27-12-2025 20:37:34] [main] [com.swaglabs.utils.TerminalUtils] - Command executed successfully:  cmd.exe /c start test-outputs/allure-report\Report_2025-12-27-20-37-34.html
